@@ -11,4 +11,7 @@ accountCity = "Indore"
 
 console.log(accountId);
 
+/*
+Prefer not to use var
+*/
 console.table([accountId, accountEmail, accountPassword, accountCity])
