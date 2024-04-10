@@ -25,3 +25,5 @@ let isLoggedIn = false //boolean
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+// There is difference between undefined and null 
