@@ -52,7 +52,7 @@ let str3 = str1 +str2
 // console.log(1 + 2 + "2"); // 32
 
 // console.log(true); // true
-// console.log(+true); // 1 --> boolean is a also number it add increment 
+// console.log(+true); // 1 --> boolean is a also number it add increment. These are not cleaned code.
 // console.log(+""); // 0
 
 let num1, num2, num3
