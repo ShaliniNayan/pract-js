@@ -43,3 +43,14 @@ console.log(typeof myFunction); // function but called as object function
 console.log(typeof anotherId); // Symbol 
 
 // Link https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory 
+// 2 types: Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "shalininayandotcom"
+
+let anothername = myYoutubename
+
+console.log(anothername);
