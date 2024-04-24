@@ -52,5 +52,7 @@ console.log(typeof anotherId); // Symbol
 let myYoutubename = "shalininayandotcom"
 
 let anothername = myYoutubename
+anothername = "codewithsndprs"
 
 console.log(anothername);
+console.log(myYoutubename);
