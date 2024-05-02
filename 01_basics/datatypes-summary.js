@@ -56,5 +56,3 @@ anothername = "codewithsndprs"
 
 console.log(anothername);
 console.log(myYoutubename);
-
-// hold till tomorrow 
