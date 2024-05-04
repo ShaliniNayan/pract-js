@@ -57,4 +57,3 @@ anothername = "codewithsndprs"
 console.log(anothername);
 console.log(myYoutubename);
 
-//Update will start from tom
