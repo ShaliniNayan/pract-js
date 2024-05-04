@@ -47,7 +47,7 @@ console.log(typeof anotherId); // Symbol
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Memory 
-// 2 types: Stack (Primitive), Heap (Non-Primitive)
+// 2 types: Stack (Primitive), Heap (Non-Primitive : whatever it will change it will change in original value)
 
 let myYoutubename = "shalininayandotcom"
 
@@ -57,3 +57,14 @@ anothername = "codewithsndprs"
 console.log(anothername);
 console.log(myYoutubename);
 
+let userOne = {
+    email: "user@google.com",
+    upi: "usi@upi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shalini@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
