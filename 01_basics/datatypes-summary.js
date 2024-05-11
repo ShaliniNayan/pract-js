@@ -68,3 +68,6 @@ userTwo.email = "shalini@google.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+
+// Project is on hold
+// Start from Monday
