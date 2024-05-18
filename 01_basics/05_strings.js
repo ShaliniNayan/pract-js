@@ -36,6 +36,7 @@ console.log(url.replace('%20', '-')); //.replace works as find the character and
 console.log(url.includes('shalini')); // .includes works as searching and giving answer in true or false
 console.log(url.includes('sandra')); // .includes works as searching and giving answer in true or false
 console.log(url.includes('aarav')); 
+console.log(url.includes('aadit'));
 
 console.log(gameName.split('-')); // It create array and bi farcate the charcter in given object.
 // link for split documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
