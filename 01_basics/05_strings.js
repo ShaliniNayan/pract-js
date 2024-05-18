@@ -39,5 +39,3 @@ console.log(url.includes('aarav'));
 
 console.log(gameName.split('-')); // It create array and bi farcate the charcter in given object.
 // link for split documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
-
-// hold
