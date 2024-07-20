@@ -13,4 +13,5 @@ console.log(otherNumber.toPrecision(3)); //23.9 //Returns a string containing a 
 console.log(otherNumber.toPrecision(4)); // 123.9 // 124 - means number will come in precise way before decimal.
 
 const hundreds = 1000000
-console.log(hundreds.toLocaleString()); // 1,000,000 - this 
+console.log(hundreds.toLocaleString()); // 1,000,000 - this is US method to write
+console.log(hundreds.toLocaleString('en-IN')); // 10,00,000 - this is Indian method to write
