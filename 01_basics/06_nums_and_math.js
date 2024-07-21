@@ -18,11 +18,16 @@ const hundreds = 1000000
 
 // ++++++++++++++++++++++ Maths +++++++++++++++++++++++++++++++++++++++
 
-console.log(Math); // Object [Math] {}
-console.log(Math.abs()); //Nan
-console.log(Math.abs(-4)); //4
-console.log(Math.round(4.3)); //4
-console.log(Math.round(4.6)); //5
-console.log(Math.ceil(4.2)); // 5 - ceil means up so it will take up or greater or before decimal value.
-console.log(Math.floor(4.9)); // 5 - floor means up so it will take down or lower value.
+// console.log(Math); // Object [Math] {}
+// console.log(Math.abs()); //Nan
+// console.log(Math.abs(-4)); //4
+// console.log(Math.round(4.3)); //4
+// console.log(Math.round(4.6)); //5
+// console.log(Math.ceil(4.2)); // 5 - ceil means up so it will take up or greater value.
+// console.log(Math.floor(4.9)); // 5 - floor means up so it will take down or lower value.
+// console.log(Math.min(4, 3, 6, 8)); // 3 - gives minimum value
+// console.log(Math.max(4, 3, 6, 8)); // 8 - gives maxium value
 
+console.log(Math.random()); // Always return the number between 0 to 1
+console.log(Math.random()*10 ); // It will return the random number between 1 to 10 but not sure 0 will not come
+console.log(Math.random()*10 + 1 ); // It will return the random number between 1 to 10 but to make sure 0 should not come we add + 1 
