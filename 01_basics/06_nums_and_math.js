@@ -31,3 +31,11 @@ const hundreds = 1000000
 console.log(Math.random()); // Always return the number between 0 to 1
 console.log(Math.random()*10 ); // It will return the random number between 1 to 10 but not sure 0 will not come
 console.log(Math.random()*10 + 1 ); // It will return the random number between 1 to 10 but to make sure 0 should not come we add + 1 
+console.log((Math.random()*10) + 1 ); // It will return the random number between 1 to 10 and in this 0 will  not come
+console.log(Math.floor(Math.random()*10) + 1 ); // 1
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1 ))); // Math.random() * (max - min + 1 ) ---> Formula, math.floor is used for bring the whole number
+console.log(Math.floor(Math.random() * (max - min + 1 )) + min);
