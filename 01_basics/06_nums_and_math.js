@@ -38,4 +38,4 @@ const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1 ))); // Math.random() * (max - min + 1 ) ---> Formula, math.floor is used for bring the whole number
-console.log(Math.floor(Math.random() * (max - min + 1 )) + min);
+console.log(Math.floor(Math.random() * (max - min + 1 )) + min); 
