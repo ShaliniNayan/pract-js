@@ -15,7 +15,7 @@ let myDate = new Date()
 let myCreatedDate = new Date("2024-07-23") // To create specific or current date, 0 --> month start from Zero and add the time
 //console.log(myCreatedDate); // 2024-01-23T00:00:00.000Z
 //console.log(myCreatedDate.toDateString()); // Tue Jan 23 2024
-// console.log(myCreatedDate.toLocaleString()); // 7/23/2024, 11:50:00 PM
+//console.log(myCreatedDate.toLocaleString()); // 7/23/2024, 11:50:00 PM
 console.log(myCreatedDate.toLocaleString()); // 7/23/2024, 12:00:00 AM
 console.log(myCreatedDate.toLocaleTimeString()); // 12:00:00 AM --> only time will displayed
 console.log(myCreatedDate.toISOString()); // 2024-07-23T00:00:00.000Z 
