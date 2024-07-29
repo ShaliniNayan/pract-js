@@ -20,6 +20,12 @@ let myCreatedDate = new Date("2024-07-23") // To create specific or current date
 //console.log(myCreatedDate.toLocaleTimeString()); // 12:00:00 AM --> only time will displayed
 //console.log(myCreatedDate.toISOString()); // 2024-07-23T00:00:00.000Z 
 //console.log(myCreatedDate.getTimezoneOffset()); // 0
-console.log(myCreatedDate.toJSON()); // 2024-07-23T00:00:00.000Z
+//console.log(myCreatedDate.toJSON()); // 2024-07-23T00:00:00.000Z
 
-let myTimeStamp
+let myTimeStamp = Date.now()
+
+//console.log(myTimeStamp); // 1722271723742 --> output will be in mili second
+//console.log(myCreatedDate.getTime()); // 1721692800000 --> now compare with above value so that it will get time difference
+//console.log(Date.now()); // 1722272131776
+console.log(Date.now()/1000); // 1722272205.684 --> Compare to mili second so that we divide to 1000
+console.log(Date.now()/1000); // 1722272205.684 --> Compare to mili second so tha
