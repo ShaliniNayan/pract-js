@@ -27,5 +27,17 @@ let myTimeStamp = Date.now()
 //console.log(myTimeStamp); // 1722271723742 --> output will be in mili second
 //console.log(myCreatedDate.getTime()); // 1721692800000 --> now compare with above value so that it will get time difference
 //console.log(Date.now()); // 1722272131776
-console.log(Date.now()/1000); // 1722272205.684 --> Compare to mili second so that we divide to 1000
-console.log(Date.now()/1000); // 1722272205.684 --> Compare to mili second so tha
+//console.log(Date.now()/1000); // 1722272205.684 --> Compare to mili second so that we divide to 1000
+//console.log(Math.floor(Date.now()/1000)); // 1722272625 --> get little small without decimal which is easy to compare
+
+let newDate = new Date()
+console.log(newDate); // 2024-07-29T17:06:37.059Z
+console.log(newDate.getMonth()); // 6 --> Month is start from 0. It's method so execute is necessary ()  
+console.log(newDate.getDay()); // 1
+console.log(newDate.getMonth() + 1); // 7 --> To get same month for no confusion +1
+
+// `${newDate.getDay()} and the time`
+
+newDate.toLocaleString('default', {
+    weekday: "long"
+})
