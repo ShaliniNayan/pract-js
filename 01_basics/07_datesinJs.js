@@ -26,8 +26,8 @@ let myTimeStamp = Date.now()
 
 //console.log(myTimeStamp); // 1722271723742 --> output will be in mili second
 //console.log(myCreatedDate.getTime()); // 1721692800000 --> now compare with above value so that it will get time difference
-//console.log(Date.now()); // 1722272131776
-//console.log(Date.now()/1000); // 1722272205.684 --> Compare to mili second so that we divide to 1000
+//console.log(Date.now()); // 1722272131776 --> Compare date in value for larger product
+//console.log(Date.now()/1000); // 1722272205.684 --> Convert to second from mili second so divide to 1000
 //console.log(Math.floor(Date.now()/1000)); // 1722272625 --> get little small without decimal which is easy to compare
 
 let newDate = new Date()
