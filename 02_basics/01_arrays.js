@@ -8,3 +8,8 @@ const myHeors = ["shaktiman", "nagraj"]
 
 const myArr2 = new Array(1, 2, 3, 4)
 console.log(myArr[1]);
+
+// Arrey Methods
+
+myArr.push(6) // [ 0, 1, 2, 3, 4, 5, 6 ]
+console.log(myArr);
