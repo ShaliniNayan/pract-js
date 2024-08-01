@@ -22,6 +22,8 @@ console.log(myArr[1]);
 // console.log(myArr.indexOf()); // -1 --> Always gives the answer -1.
 // console.log(myArr.indexOf(3)); // 3
 
-
+const newArr = myArr.join() // 0,1,2,3,4,5 --> Combine the value into sing string
 
 console.log(myArr);
+console.log(newArr);
+console.log(typeof newArr); // string
