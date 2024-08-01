@@ -15,10 +15,13 @@ console.log(myArr[1]);
 // myArr.push(7) // [ 0, 1, 2, 3, 4, 5, 6, 7 ]
 // myArr.pop() // [ 0, 1, 2, 3, 4, 5, 6 ] --> Remove last value
 
-myArr.unshift(0) //--> Add new value in the beginning
-myArr.shift() //--> Remove first value in the beginning
+//myArr.unshift(0) //--> Add new value in the beginning
+//myArr.shift() //--> Remove first value in the beginning
 
-console.log(myArr.includes(9)); // -> includes method check the question you are asking is there or not, it gives answer in boolean that is true or false.
+// console.log(myArr.includes(9)); // -> includes method check the question you are asking is there or not, it gives answer in boolean that is true or false.
+// console.log(myArr.indexOf()); // -1 --> Always gives the answer -1.
+// console.log(myArr.indexOf(3)); // 3
+
 
 
 console.log(myArr);
