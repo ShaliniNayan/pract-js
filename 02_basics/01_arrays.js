@@ -17,4 +17,8 @@ console.log(myArr[1]);
 
 myArr.unshift(0) //--> Add new value in the beginning
 myArr.shift() //--> Remove first value in the beginning
+
+console.log(myArr.includes(9)); // -> includes method check the question you are asking is there or not, it gives answer in boolean that is true or false.
+
+
 console.log(myArr);
