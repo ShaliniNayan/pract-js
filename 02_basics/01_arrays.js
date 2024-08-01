@@ -11,7 +11,10 @@ console.log(myArr[1]);
 
 // Arrey Methods
 
-myArr.push(6) // [ 0, 1, 2, 3, 4, 5, 6 ] --> Add new value at the end
-myArr.push(7) // [ 0, 1, 2, 3, 4, 5, 6, 7 ]
-myArr.pop() // [ 0, 1, 2, 3, 4, 5, 6 ] --> Remove last value 
+// myArr.push(6) // [ 0, 1, 2, 3, 4, 5, 6 ] --> Add new value at the end
+// myArr.push(7) // [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+// myArr.pop() // [ 0, 1, 2, 3, 4, 5, 6 ] --> Remove last value
+
+myArr.unshift(0) //--> Add new value in the beginning
+myArr.shift() //--> Remove first value in the beginning
 console.log(myArr);
