@@ -12,4 +12,14 @@ const dc_heros = ["superman", "flash", "batman"]
 
 const all_new_heros = [...marvel_heros, ...dc_heros] // ... --> it's called spread
 
-console.log(all_new_heros); // [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ] --> same as concat
+// console.log(all_new_heros); // [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ] --> same as concat
+
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+
+const real_another_array = another_array.flat(Infinity) // flat --> it will merge all array and concat all the elements in one array
+console.log(real_another_array); // [
+//     1, 2, 3, 4, 5,
+//     6, 7, 6, 7, 4,
+//     5
+//   ]
+
