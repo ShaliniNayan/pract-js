@@ -7,5 +7,5 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(marvel_heros[3][1]); // [ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]
 // flash
 
-// const allHeros = marvel_heros.concat(dc_heros)
-// console.log(allHeros); // [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ] --> merge the exiting array and give one array
+const allHeros = marvel_heros.concat(dc_heros)
+console.log(allHeros); // [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ] --> merge the exiting array and give one array
