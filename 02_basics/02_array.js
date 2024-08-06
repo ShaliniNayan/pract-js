@@ -23,3 +23,14 @@ console.log(real_another_array); // [
 //     5
 //   ]
 
+
+// Data Scrapping
+Array.isArray("Shalini") // --> isArrray for asking question
+console.log(Array.isArray("Shalini")) // --> false
+
+// How will convert to array: 
+// console.log(Array.from("Shalini")) // from will help to convert : [
+//     'S', 'h', 'a',
+//     'l', 'i', 'n',
+//     'i'
+//   ]
