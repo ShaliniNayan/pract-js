@@ -34,3 +34,12 @@ console.log(Array.from("Shalini")) // from will help to convert : [
 //     'l', 'i', 'n',
 //     'i'
 //   ]
+
+// Other method
+console.log(Array.from({name: "shalini"})) // Intteresting [] --> Always give empty array. you always have to give keys and value.
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3));// [ 100, 200, 300 ] --> .of : Return set of new element in single array
