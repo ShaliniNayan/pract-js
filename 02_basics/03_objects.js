@@ -12,3 +12,5 @@ const JsUser = {
 } // {} --> this is object 
 
 // How to access object 
+console.log(JsUser.email); // shalini@example.com --> many people do this but it's not correct way to access object
+console.log(JsUser["email"]); // shalini@example.com
