@@ -21,3 +21,20 @@ console.log(JsUser.email); // shalini@example.com --> many people do this but it
 console.log(JsUser["email"]); // shalini@example.com
 console.log(JsUser["full name"]); // Shalini Nayan
 console.log(JsUser[mySym]); // mykey1
+
+// Value change
+
+JsUser.email = "shalini@nayan.com" // change the value of email
+Object.freeze(JsUser) // to freeze the value so that after this nothing will change in this value
+JsUser.email = "shalini@microsoft.com"
+console.log(JsUser); 
+// {
+//   name: 'Shalini',
+//   'full name': 'Shalini Nayan',
+//   age: 25,
+//   location: 'Delhi',
+//   email: 'shalini@nayan.com', // first change is done but not after the freeze
+//   isLoggedIn: false,
+//   lastLoginDays: [ 'Monday', 'Saturday' ],
+//   [Symbol(key1)]: 'mykey1'
+// }
