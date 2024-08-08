@@ -17,17 +17,17 @@ const JsUser = {
 } // {} --> this is object 
 
 // How to access object 
-console.log(JsUser.email); // shalini@example.com --> many people do this but it's not correct way to access object
-console.log(JsUser["email"]); // shalini@example.com
-console.log(JsUser["full name"]); // Shalini Nayan
-console.log(JsUser[mySym]); // mykey1
+// console.log(JsUser.email); // shalini@example.com --> many people do this but it's not correct way to access object
+// console.log(JsUser["email"]); // shalini@example.com
+// console.log(JsUser["full name"]); // Shalini Nayan
+// console.log(JsUser[mySym]); // mykey1
 
 // Value change
 
 JsUser.email = "shalini@nayan.com" // change the value of email
-Object.freeze(JsUser) // to freeze the value so that after this nothing will change in this value
+// Object.freeze(JsUser) // to freeze the value so that after this nothing will change in this value
 JsUser.email = "shalini@microsoft.com"
-console.log(JsUser); 
+// console.log(JsUser); 
 // {
 //   name: 'Shalini',
 //   'full name': 'Shalini Nayan',
@@ -38,3 +38,18 @@ console.log(JsUser);
 //   lastLoginDays: [ 'Monday', 'Saturday' ],
 //   [Symbol(key1)]: 'mykey1'
 // }
+
+// Function
+JsUser.greeting = function(){
+    console.log("Hello JS user");
+    
+}
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
+    
+}
+
+// console.log(JsUser.greeting); // undefined 
+// console.log(JsUser.greeting); // [Function (anonymous)] --> function is not in use but reference came
+console.log(JsUser.greeting()); // Hello JS user
+console.log(JsUser.greetingTwo()); // Hello JS user, Shalini
