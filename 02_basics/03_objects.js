@@ -45,11 +45,11 @@ JsUser.greeting = function(){
     
 }
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
     
+    console.log(`Hello JS user, ${this.name}`); // Whatever properties there come inside value will come from --> this.
 }
 
 // console.log(JsUser.greeting); // undefined 
-// console.log(JsUser.greeting); // [Function (anonymous)] --> function is not in use but reference came
+// console.log(JsUser.greeting); // [Function (anonymous)] --> function is not in execute but reference came
 console.log(JsUser.greeting()); // Hello JS user
 console.log(JsUser.greetingTwo()); // Hello JS user, Shalini
