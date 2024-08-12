@@ -1,7 +1,7 @@
 // Singleton with help of construction declare variable
 
-// const tinderUser = new Object() 
+// const tinderUser = new Object() // Singleton value
 // or
-const tinderUser = {}
+const tinderUser = {} // Non singleton value
 
 console.log(tinderUser); // {} --> in both way answer will be empty array
