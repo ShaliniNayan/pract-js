@@ -10,3 +10,20 @@ tinderUser.isLoggedIn = false
 
 // console.log(tinderUser); // {} --> in both way answer will be empty array After putting value = { id: '123abc', name: 'Sammy', isLoggedIn: false }
 
+// For another app 
+
+const regularUser = {
+    email: "some@gmail.com",
+    fullname: {
+        usefullname: {
+            firstname: "shaline",
+            lastname: "nayan"
+        } // you write as many as nesting 
+    }
+}
+
+// access the value or data through . notation
+// console.log(regularUser.fullname); // { usefullname: { firstname: 'shaline', lastname: 'nayan' } }
+// console.log(regularUser.fullname.usefullname); // { firstname: 'shaline', lastname: 'nayan' }
+// console.log(regularUser.fullname.usefullname.firstname); // shaline
+
