@@ -27,3 +27,8 @@ const regularUser = {
 // console.log(regularUser.fullname.usefullname); // { firstname: 'shaline', lastname: 'nayan' }
 // console.log(regularUser.fullname.usefullname.firstname); // shaline
 
+// Object combine & merge
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+
+const obj3 = { obj1, obj2 }
