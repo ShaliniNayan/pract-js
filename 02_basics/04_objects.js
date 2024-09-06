@@ -37,5 +37,28 @@ const obj2 = {3: "a", 4: "b"}
 //console.log(obj3); // { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 
 const obj3 = {...obj1, ...obj2} // this is spread function
-console.log(obj3); // { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+// console.log(obj3); // { '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+
+// Data base value:
+
+const users = [
+    {
+        id: 1,
+        email: "s@gmail.com",
+    },
+    {
+        id: 1,
+        email: "s@gmail.com",
+    },
+    {
+        id: 1,
+        email: "s@gmail.com",
+    },
+]
+
+users[1].email
+console.log(tinderUser); // { id: '123abc', name: 'Sammy', isLoggedIn: false }
+
+// Method
+console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isLoggedIn' ]
  
