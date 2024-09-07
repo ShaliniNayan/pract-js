@@ -60,9 +60,35 @@ users[1].email
 console.log(tinderUser); // { id: '123abc', name: 'Sammy', isLoggedIn: false }
 
 // Method
-console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser)); // [ '123abc', 'Sammy', false ]
-console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
-console.log(tinderUser.hasOwnProperty('isLogged')); // false
+// console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser)); // [ '123abc', 'Sammy', false ]
+// console.log(Object.entries(tinderUser)); // [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+// console.log(tinderUser.hasOwnProperty('isLogged')); // false
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
  
