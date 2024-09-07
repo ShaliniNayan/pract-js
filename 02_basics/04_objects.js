@@ -70,7 +70,7 @@ console.log(tinderUser); // { id: '123abc', name: 'Sammy', isLoggedIn: false }
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "shalini"
 }
 
 // course.courseInstructor
@@ -81,7 +81,7 @@ const {courseInstructor: instructor} = course
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
+//     "name": "shalini",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
