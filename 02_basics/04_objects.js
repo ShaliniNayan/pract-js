@@ -92,4 +92,3 @@ console.log(instructor);
     {}
 ]
  
-//Pause
