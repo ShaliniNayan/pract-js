@@ -80,7 +80,7 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
-// API JSON
+// API JSON -> Json is javascript object rotation 
 // {
 //     "name": "shalini",
 //     "coursename": "js in hindi",
