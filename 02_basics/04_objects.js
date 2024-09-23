@@ -80,6 +80,7 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+// API JSON
 // {
 //     "name": "shalini",
 //     "coursename": "js in hindi",
