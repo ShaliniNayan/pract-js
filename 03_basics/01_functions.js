@@ -6,6 +6,8 @@ function sayMyName() {
     console.log("I");
     console.log("N");
     console.log("E");    
+    console.log("N");
+    
 }
 
 // reference and execute --> reference will be "sayMYName" and execute will be "()"
